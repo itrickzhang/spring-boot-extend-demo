@@ -1,0 +1,5 @@
+context:
+# initializer:
+#  classes: org.example.test1.FirstApplicationContextInitializer,org.example.test1.FirstApplicationContextInitializer
+# listener:
+#   classes: org.example.test2.TestContextClosedEvent,org.example.test2.TestContextRefreshedEvent,org.example.test2.TestContextStartedEvent,org.example.test2.TestContextStoppedEvent,org.example.test2.TestRequestHandledEvent

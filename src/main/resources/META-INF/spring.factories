@@ -1,0 +1,18 @@
+#org.springframework.context.ApplicationContextInitializer=\
+#org.example.test1.FirstApplicationContextInitializer,\
+#org.example.test1.SecondApplicationContextInitializer
+
+#org.springframework.context.ApplicationListener=\
+#org.example.test2.TestContextClosedEvent,\
+#org.example.test2.TestContextRefreshedEvent,\
+#org.example.test2.TestContextStartedEvent,\
+#org.example.test2.TestContextStoppedEvent,\
+#org.example.test2.TestRequestHandledEvent
+
+org.springframework.boot.SpringApplicationRunListener=\
+org.example.test3.TimeOutApplicationRunLintener
+#org.example.test3.TestApplicationRunLintener
+
+org.example.test5.TestInteface = \
+org.example.test5.Test1Impl,\
+org.example.test5.Test2Impl
